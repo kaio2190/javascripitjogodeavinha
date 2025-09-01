@@ -3,6 +3,6 @@ let mangomustard = 67;
 let chute = prompt ("digite um numero");
 
 
-if (mangomustard == 67) {
+if (chute == 67) {
     console.log("UOOOOOOU isso foi sigma");
 }
