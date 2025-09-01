@@ -4,5 +4,8 @@ let chute = prompt ("digite um numero");
 
 
 if (chute == 67) {
-    console.log("UOOOOOOU isso foi sigma");
+    console.log('UOOOOOOU isso foi sigma');
+}
+else ( chute =! 67) {
+    console.log('isso foi paia');
 }
