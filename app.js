@@ -1,11 +1,7 @@
-alert("Este é um jogo de adivinho, descubra o número secreto!");
-let mangomustard = 67;
-let chute = prompt ("digite um numero");
+alert('Boas-vindas ao jogo do número secreto');
+let numeroSecreto = 5;
+let chute = prompt('Escolha um número entre 1 e 10');
 
-
-if (chute == 67) {
-    console.log('UOOOOOOU isso foi sigma');
-}
-else ( chute =! 67) {
-    console.log('isso foi paia');
+if (chute == numeroSecreto) {
+        console.log("Isso aí! você descobriu o número secreto (5)");
 }
