@@ -1,3 +1,6 @@
 alert("Este é um jogo de adivinho, descubra o número secreto!");
 let mangomustard = 67;
-prompt ("digite um numero");
+let chute = prompt ("digite um numero");
+
+
+if (mangomustard == 67) alert("win");
