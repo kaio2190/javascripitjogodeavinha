@@ -4,7 +4,7 @@ let chute = prompt('Escolha um número sigma de 41 a 67');
 console.log("mangomustard")
 
 if (chute == mangomustard) {
-        alert(`oooooooou isso foi irado, você acertou `)
+        alert(`oooooooou isso foi irado, você acertou ${mangomustard}`);
 }       else{
         alert("VOCE É BETA");
 }
