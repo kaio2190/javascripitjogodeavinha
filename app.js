@@ -1,7 +1,7 @@
-alert('Boas-vindas ao jogo do número secreto');
-let numeroSecreto = 5;
-let chute = prompt('Escolha um número entre 1 e 10');
+alert('este é um jogo sigma brain rot');
+let mangomustard = 41;
+let chute = prompt('Escolha um número sigma');
 
 if (chute == numeroSecreto) {
-        console.log("Isso aí! você descobriu o número secreto (5)");
+        console.log("uoooooooou isso foi fodastico)");
 }
