@@ -6,5 +6,8 @@ console.log("mangomustard")
 if (chute == mangomustard) {
         alert(`oooooooou isso foi irado, você acertou`);
 }       else{
-        alert("VOCE É BETA");
+        if(mangomustard > 41) {
+                alert('muito alto')
+        }
+
 }
