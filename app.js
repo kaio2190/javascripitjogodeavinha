@@ -6,8 +6,10 @@ console.log("mangomustard")
 if (chute == mangomustard) {
         alert(`oooooooou isso foi irado, você acertou`);
 }       else{
-        if(mangomustard > 41) {
-                alert('muito alto')
+        if(mangomustard > chute) {
+                alert(`baka o numero é menor que ${chute}`)
+        } else {
+                alert(`baka o numero é menor que ${chute}`)
         }
 
 }
