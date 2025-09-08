@@ -1,4 +1,4 @@
-alert('este é um jogo sigma brain rot');
+alert('este é um jogo de adivnho');
 let mangomustard = 41;
 let chute = prompt('Escolha um número sigma de 41 a 67');
 console.log("mangomustard")
