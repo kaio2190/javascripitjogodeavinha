@@ -13,3 +13,4 @@ if (chute == mangomustard) {
         }
 
 }
+alert ("renicie a pagina para recomeçar");
