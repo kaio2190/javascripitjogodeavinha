@@ -13,3 +13,8 @@ if (chute == mangomustard) {
         }
 
 }
+if (chute < chute) {
+        alert(`mané o numero é maior que ${chute}`)
+} else {
+        alert(`mané o numero é maior que ${chute}`)
+}
