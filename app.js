@@ -1,4 +1,4 @@
-alert('este é um jogo de adivnho');
+alert('este é um jogo de adivnho. Após chutar o número, renicie a pagina para recomeçar.');
 let mangomustard = 41;
 let chute = prompt('Escolha um número sigma de 41 a 67');
 console.log("mangomustard")
@@ -13,4 +13,3 @@ if (chute == mangomustard) {
         }
 
 }
-alert ("renicie a pagina para recomeçar");
