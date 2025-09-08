@@ -9,7 +9,7 @@ if (chute == mangomustard) {
         if(mangomustard > chute) {
                 alert(`baka o numero é menor que ${chute}`)
         } else {
-                alert(`baka o numero é menor que ${chute}`)
+                alert(`baka o numero é maior que ${chute}`)
         }
 
 }
