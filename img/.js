@@ -1,21 +1,30 @@
-alert('este é um jogo de adivnho. Após chutar o número, renicie a pagina para recomeçar.');
-let mangomustard = 41;
-let chute = prompt('Escolha um número sigma de 0 a 41');
-console.log("mangomustard")
+let numeroSecreto;
+let tentativas;
+const maxTentativas = 5;
 
-if (chute == mangomustard) {
-        alert(`oooooooou isso foi irado, você acertou`);
-}       else{
-        if(mangomustard > chute) {
-                alert(`baka o numero é menor que ${chute}`);
-        } else {
-                alert(`baka o numero é maior que ${chute}`);
-        }
-
-}
-if (mangomustard < chute) {
-        alert(`mané o numero é maior que ${chute}`);
-} else {
-        alert(`mané o numero é maior que ${chute}`);
+function iniciarJogo() {
+  numeroSecreto = Math.floor(Math.random() * 100) + 1; // Número entre 1 e 100
+  tentativas = 0;
+  document.getElementById('mensagem').textContent = "Tente adivinhar um número entre 1 e 100!";
+  document.getElementById('inputNumero').value = "";
 }
 
+function verificarPalpite() {
+  const palpite = Number(document.getElementById('inputNumero').value);
+  tentativas++;
+  if (palpite === numeroSecreto) {
+    document.getElementById('mensagem').textContent = `Parabéns! Você acertou em ${tentativas} tentativas. O jogo será reiniciado.`;
+    setTimeout(iniciarJogo, 2000); // Reset automático
+  } else if (tentativas >= maxTentativas) {
+    document.getElementById('mensagem').textContent = `Você perdeu! O número era ${numeroSecreto}. O jogo será reiniciado.`;
+    setTimeout(iniciarJogo, 2000); // Reset automático
+  } else if (palpite < numeroSecreto) {
+    document.getElementById('mensagem').textContent = "O número secreto é maior!";
+  } else {
+    document.getElementById('mensagem').textContent = "O número secreto é menor!";
+  }
+  document.getElementById('inputNumero').value = "";
+}
+
+// Chama iniciarJogo ao carregar a página
+window.onload = iniciarJogo;
