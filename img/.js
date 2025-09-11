@@ -18,3 +18,4 @@ if (mangomustard < chute) {
 } else {
         alert(`mané o numero é maior que ${chute}`);
 }
+
