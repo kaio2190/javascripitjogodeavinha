@@ -1,5 +1,5 @@
-let titulo = document.querySelector('h1');
-titulo.innerHTML = 'Jogo do número secreto';
+let sexxo = document.querySelector('h1');
+sexxo.innerHTML = 'Jogo da gozada fatal';
 
 let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'Escolha um número entre 1 e 10';
+paragrafo.innerHTML = 'digite um número de 1 e 10';
