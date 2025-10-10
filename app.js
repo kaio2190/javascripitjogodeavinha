@@ -1,9 +1,11 @@
-let sexxo = document.querySelector('h1');
-sexxo.innerHTML = 'Jogo de adivinho';
+function exibirTextoNaTela(tag) {
 
-let paragrafo = document.querySelector('p');
-paragrafo.innerHTML = 'digite um número de 1 e 10';
+    let campo = document.querySelector(tag);
+    campo.innerHTML = texto
+} 
+exibirTextoNaTela('h1', 'jogo de adivinhar');
+exibirTextoNaTela('p', 'escolha um numero de 0  10');
 
 function verificarChute() {
-    console.log ('o botão foi clicado')
+    console.log ('o botão foi clicado');
 }
